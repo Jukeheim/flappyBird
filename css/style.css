@@ -1,0 +1,43 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+
+    background-image: url(../img/back-intro.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: -17px 21px 55px 6px rgba(23, 54, 122, 1);
+    cursor: pointer;
+}
+
+.center-text {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(2, 94, 243);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
